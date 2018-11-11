@@ -10,8 +10,12 @@ buildscript {
 	}
 }
 
-apply plugin: 'java'
-apply plugin: 'eclipse'
+plugins{
+	id 'java'
+	id 'idea'
+	id 'eclipse'
+}
+
 apply plugin: 'org.springframework.boot'
 apply plugin: 'io.spring.dependency-management'
 
