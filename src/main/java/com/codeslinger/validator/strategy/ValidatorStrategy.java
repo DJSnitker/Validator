@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 import org.apache.commons.lang3.StringUtils;
 
 @Service("Strategy")
-@Scope("prototype")
+//@Scope("prototype")
 public class ValidatorStrategy implements Validator {
 
     private ApplicationContext ctx;

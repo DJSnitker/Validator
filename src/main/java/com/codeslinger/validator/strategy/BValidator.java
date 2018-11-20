@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
 
 @Service("B")
-@Scope("prototype")
+//@Scope("prototype")
 public class BValidator implements Validator {
 
     @Override
